@@ -19,6 +19,8 @@ import EveryClickBgChange from './data/BgColorEveryClickChange';
 import Webcamp from './data/Webcam';
 import LearnWebCam from './data/LearnWebCam';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import AgeCalculation from './data/AgeCalculation';
+import Countries from './data/ContriesList';
 // import Timer from './data/Counter';
 function App() {
 // const [user,setUser]=useState(userData);
@@ -40,11 +42,13 @@ fetchUser();
 
   return (
     <div className="App">
-      <BrowserRouter>
+      {/* <AgeCalculation/> */}
+      <Countries/>
+      {/* <BrowserRouter>
       <Routes>
         <Route exact path='/' element={<Webcamp/>}></Route>
           </Routes>
-          </BrowserRouter>
+          </BrowserRouter> */}
       {/* <LearnWebCam/> */}
       {/* <BgColorChange/> */}
       {/* <EveryClickBgChange/> */}
@@ -75,7 +79,7 @@ fetchUser();
       })} */}
       {/* <button onClick={()=>setLoading(!loading)}>Check</button> */}
     
-    {/* <Webcamp/> */}
+    {/* <Webcamp/>y */}
     
     </div>
   

@@ -7,7 +7,7 @@ const SendProps = () => {
     
     const [border,setBorder]=useState("")
   return (
-    <div >
+    <div>
         <input type='text' onChange={(e)=>setCount(e.target.value)}  style={{border:"5px solid yellow"}}></input>
         <h1>{count}</h1>
         <RecievedProps count={count}
@@ -17,4 +17,4 @@ const SendProps = () => {
   )
 }
 
-export default SendProps
+export default SendProps;

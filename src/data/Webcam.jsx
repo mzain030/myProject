@@ -20,11 +20,12 @@ const Webcamp = () => {
 
     //   {/* <CustomWebcam /> */}
     // </div>
+    // {n=3?():()}
     <div className="container">
       {imgSrc ? (
         <img src={imgSrc} alt="webcam"/>
       ) : (
-        <Webcam height={200} width={200} ref={webcamRef} />
+        <Webcam height={200} width={200} ref={webcamRef}/>
       )}
         <div className="btn-container">
         {imgSrc ? (
